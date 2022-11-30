@@ -2,7 +2,10 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv()
+local_run = False
+
+if local_run is True:
+    load_dotenv()
 
 
 class Config:
