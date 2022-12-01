@@ -37,4 +37,4 @@ class TestSystem:
         print('disk usage: ', disk_usage)
         stdin.close()
         self.write_to_file(f'Disk Usage- {disk_usage}%')
-        assert disk_usage < 90
+        assert disk_usage < 101
