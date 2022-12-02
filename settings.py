@@ -15,3 +15,8 @@ class Config:
     SSH_PORT = os.getenv('SSH_PORT') or '2222'
     SSH_USER = os.getenv('SSH_USER') or 'user'
     SSH_PASSWORD = os.getenv('SSH_PASSWORD') or 'pw'
+
+    # Logging
+    CONSOLE_LOG_LEVEL = 'INFO'
+    FILE_LOG_LEVEL = 'INFO'
+    LOG_FILE_PATH = 'test_logs.log'
